@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    background: #383838;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 0 0 5px rgba(255,255,255,0.1);
+    flex: 1;
+    cursor: pointer;
+}
+
+.image:hover {
+    box-shadow: inset 0 0 3px 5px rgb(217 164 15 / 40%);
+}
+
+.first {
+    background-image: url('../assets/images/sweet1.jpg');
+}
+.second {
+    background-image: url('../assets/images/sweet2.jpg');
+}
+.third {
+    background-image: url('../assets/images/sweet3.jpg');
+}
+.fourth {
+    background-image: url('../assets/images/sweet4.jpg');
+}
+.fifth {
+    background-image: url('../assets/images/sweet5.jpg');
+}
+.sixth {
+    background-image: url('../assets/images/sweet6.jpg');
+}
